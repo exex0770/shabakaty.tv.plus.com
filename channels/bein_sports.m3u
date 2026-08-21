@@ -1,60 +1,60 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="AR: BeIN SPORTS 1 360P",AR: BeIN SPORTS 1 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1",BeIN SPORTS 1
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28242
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="AR: BeIN SPORTS 1 720P",AR: BeIN SPORTS 1 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1",BeIN SPORTS 1
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78797
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="AR: BeIN SPORTS 1 1080P",AR: BeIN SPORTS 1 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1",BeIN SPORTS 1
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28262
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="AR: BeIN SPORTS 2 360P",AR: BeIN SPORTS 2 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2",BeIN SPORTS 2
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28243
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="AR: BeIN SPORTS 2 720P",AR: BeIN SPORTS 2 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2",BeIN SPORTS 2
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78798
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="AR: BeIN SPORTS 2 1080P",AR: BeIN SPORTS 2 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2",BeIN SPORTS 2
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28263
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="AR: BeIN SPORTS 3 360P",AR: BeIN SPORTS 3 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3",BeIN SPORTS 3
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28244
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="AR: BeIN SPORTS 3 720P",AR: BeIN SPORTS 3 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3",BeIN SPORTS 3
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78799
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="AR: BeIN SPORTS 3 1080P",AR: BeIN SPORTS 3 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3",BeIN SPORTS 3
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28264
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="AR: BeIN SPORTS 4 360P",AR: BeIN SPORTS 4 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4",BeIN SPORTS 4
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28245
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="AR: BeIN SPORTS 4 720P",AR: BeIN SPORTS 4 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4",BeIN SPORTS 4
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78800
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="AR: BeIN SPORTS 4 1080P",AR: BeIN SPORTS 4 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4",BeIN SPORTS 4
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28265
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="AR: BeIN SPORTS 5 360P",AR: BeIN SPORTS 5 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="BeIN SPORTS 5",BeIN SPORTS 5
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28246
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="AR: BeIN SPORTS 5 720P",AR: BeIN SPORTS 5 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="BeIN SPORTS 5",BeIN SPORTS 5
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78801
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="AR: BeIN SPORTS 6 360P",AR: BeIN SPORTS 6 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6",BeIN SPORTS 6
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28247
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="AR: BeIN SPORTS 6 720P",AR: BeIN SPORTS 6 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6",BeIN SPORTS 6
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78802
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="AR: BeIN SPORTS 6 1080P",AR: BeIN SPORTS 6 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6",BeIN SPORTS 6
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28267
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="AR: BeIN SPORTS 7 360P",AR: BeIN SPORTS 7 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="BeIN SPORTS 7",BeIN SPORTS 7
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/28248
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="AR: BeIN SPORTS 7 720P",AR: BeIN SPORTS 7 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="BeIN SPORTS 7",BeIN SPORTS 7
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78803
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="AR: BeIN SPORTS 8 360P",AR: BeIN SPORTS 8 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8",BeIN SPORTS 8
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78792
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="AR: BeIN SPORTS 8 720P",AR: BeIN SPORTS 8 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8",BeIN SPORTS 8
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78804
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-id="beinsports8.qa" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-name="AR: BeIN SPORTS 8 1080P",AR: BeIN SPORTS 8 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8",BeIN SPORTS 8
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78786
 
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="AR: BeIN SPORTS 9 360P",AR: BeIN SPORTS 9 360P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9",BeIN SPORTS 9
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78793
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="AR: BeIN SPORTS 9 720P",AR: BeIN SPORTS 9 720P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9",BeIN SPORTS 9
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78805
-#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="AR: BeIN SPORTS 9 1080P",AR: BeIN SPORTS 9 1080P
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9",BeIN SPORTS 9
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/78787
