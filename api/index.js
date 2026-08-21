@@ -1381,29 +1381,3 @@ module.exports = (
 
 };
 
-شنو تغير؟
-
-صار عندك استخراج تلقائي بدون قائمة محددة. مثلاً إذا كتبت في M3U:
-
-Channel 1 SD
-Channel 1 HD
-Channel 1 FHD
-Channel 1 1080P
-Channel 1 1440P
-Channel 1 2160P
-Channel 1 4K
-Channel 1 HDR
-Channel 1 HDR10
-Channel 1 8K
-
-راح يحاول يجمعها كلها تحت:
-
-Channel 1
-
-وكل رابط يبقى داخل:
-
-qualities
-
-مع "quality_count" يبين عدد الجودات التي وجدها.
-
-ملاحظة: "HDR" و"HDR10" ليستا دقة فيديو مثل "1080P" أو "2160P"، لكن الكود يتعامل معهما كـquality label حتى يستطيع التطبيق عرضهما كخيارات.
