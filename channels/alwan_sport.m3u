@@ -1,43 +1,73 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport1",ALWAN SPORT 01 SD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181662
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport1",ALWAN SPORT 01 HD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181661
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport1",ALWAN SPORT 01 FHD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181660
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports1.qa",beIN Shabakaty Plus 1 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953589
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports1.qa",beIN Shabakaty Plus 1 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953589
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports1.qa",beIN Shabakaty Plus 1 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953589
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports1.qa",beIN Shabakaty Plus 1 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953589
 
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport2",ALWAN SPORT 02 SD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181665
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport2",ALWAN SPORT 02 HD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181664
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport2",ALWAN SPORT 02 FHD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181663
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports2.qa",beIN Shabakaty Plus 2 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953588
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports2.qa",beIN Shabakaty Plus 2 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953588
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports2.qa",beIN Shabakaty Plus 2 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953588
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports2.qa",beIN Shabakaty Plus 2 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953588
 
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport3",ALWAN SPORT 03 SD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181668
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport3",ALWAN SPORT 03 HD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181667
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport3",ALWAN SPORT 03 FHD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181666
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports3.qa",beIN Shabakaty Plus 3 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953587
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports3.qa",beIN Shabakaty Plus 3 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953587
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports3.qa",beIN Shabakaty Plus 3 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953587
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports3.qa",beIN Shabakaty Plus 3 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953587
 
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport4",ALWAN SPORT 04 SD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181671
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport4",ALWAN SPORT 04 HD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181670
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport4",ALWAN SPORT 04 FHD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181669
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports4.qa",beIN Shabakaty Plus 4 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953586
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports4.qa",beIN Shabakaty Plus 4 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953586
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports4.qa",beIN Shabakaty Plus 4 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953586
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports4.qa",beIN Shabakaty Plus 4 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953586
 
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport5",ALWAN SPORT 05 SD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181674
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport5",ALWAN SPORT 05 HD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181673
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport5",ALWAN SPORT 05 FHD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181672
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports5.qa",beIN Shabakaty Plus 5 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953585
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports5.qa",beIN Shabakaty Plus 5 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953585
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports5.qa",beIN Shabakaty Plus 5 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953585
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports5.qa",beIN Shabakaty Plus 5 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953585
 
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport6",ALWAN SPORT 06 SD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181677
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport6",ALWAN SPORT 06 HD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181676
-#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport6",ALWAN SPORT 06 FHD
-http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181675
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports6.qa",beIN Shabakaty Plus 6 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953584
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports6.qa",beIN Shabakaty Plus 6 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953584
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports6.qa",beIN Shabakaty Plus 6 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953584
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports6.qa",beIN Shabakaty Plus 6 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953584
+
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports7.qa",beIN Shabakaty Plus 7 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953583
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports7.qa",beIN Shabakaty Plus 7 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953583
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports7.qa",beIN Shabakaty Plus 7 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953583
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports7.qa",beIN Shabakaty Plus 7 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953583
+
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports8.qa",beIN Shabakaty Plus 8 360P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953582
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports8.qa",beIN Shabakaty Plus 8 480P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953582
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports8.qa",beIN Shabakaty Plus 8 720P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953582
+#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://i.imageupload.app/81ea40d79a16d6e25dc7.png" tvg-id="beinsports8.qa",beIN Shabakaty Plus 8 1080P
+http://149.18.45.121/39B6CC5D/56BBDDBA/953582
