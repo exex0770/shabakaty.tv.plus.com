@@ -1,43 +1,43 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01 360P",ALWAN SPORT 01 360P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01 SD",ALWAN SPORT 01 SD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418113
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01 720P",ALWAN SPORT 01 720P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01 HD",ALWAN SPORT 01 HD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418112
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01 1080P",ALWAN SPORT 01 1080P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01 4K",ALWAN SPORT 01 4K
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418111
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 360P",ALWAN SPORT 02 360P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 SD",ALWAN SPORT 02 SD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418116
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 720P",ALWAN SPORT 02 720P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 HD",ALWAN SPORT 02 HD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418115
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 1080P",ALWAN SPORT 02 1080P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 4K",ALWAN SPORT 02 4K
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418114
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 360P",ALWAN SPORT 03 360P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 SD",ALWAN SPORT 03 SD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418119
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 720P",ALWAN SPORT 03 720P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 HD",ALWAN SPORT 03 HD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418118
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 1080P",ALWAN SPORT 03 1080P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 4K",ALWAN SPORT 03 4K
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418117
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 360P",ALWAN SPORT 04 360P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 SD",ALWAN SPORT 04 SD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418122
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 720P",ALWAN SPORT 04 720P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 HD",ALWAN SPORT 04 HD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418121
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 1080P",ALWAN SPORT 04 1080P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 4K",ALWAN SPORT 04 4K
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418120
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 360P",ALWAN SPORT 05 360P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 SD",ALWAN SPORT 05 SD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418125
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 720P",ALWAN SPORT 05 720P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 HD",ALWAN SPORT 05 HD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418124
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 1080P",ALWAN SPORT 05 1080P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 4K",ALWAN SPORT 05 4K
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418123
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 360P",ALWAN SPORT 06 360P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 SD",ALWAN SPORT 06 SD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418128
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 720P",ALWAN SPORT 06 720P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 HD",ALWAN SPORT 06 HD
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418127
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 1080P",ALWAN SPORT 06 1080P
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 4K",ALWAN SPORT 06 4K
 http://xlion.net:8080/b0:99:d7:15:88:50/3090914536649669/418126
