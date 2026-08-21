@@ -1,37 +1,117 @@
 #EXTM3U
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1 SD",BeIN SPORTS 1 SD
-YOUR_SD_URL
+SD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1 HD",BeIN SPORTS 1 HD
-YOUR_HD_URL
+HD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1 FHD",BeIN SPORTS 1 FHD
-YOUR_FHD_URL
+FHD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports1.qa" tvg-name="BeIN SPORTS 1 4K",BeIN SPORTS 1 4K
-YOUR_4K_URL
+4K_LINK
+
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2 SD",BeIN SPORTS 2 SD
-YOUR_SD_URL
+SD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2 HD",BeIN SPORTS 2 HD
-YOUR_HD_URL
+HD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2 FHD",BeIN SPORTS 2 FHD
-YOUR_FHD_URL
+FHD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports2.qa" tvg-name="BeIN SPORTS 2 4K",BeIN SPORTS 2 4K
-YOUR_4K_URL
+4K_LINK
+
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3 SD",BeIN SPORTS 3 SD
-YOUR_SD_URL
+SD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3 HD",BeIN SPORTS 3 HD
-YOUR_HD_URL
+HD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3 FHD",BeIN SPORTS 3 FHD
-YOUR_FHD_URL
+FHD_LINK
 
 #EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports3.qa" tvg-name="BeIN SPORTS 3 4K",BeIN SPORTS 3 4K
-YOUR_4K_URL
+4K_LINK
+
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4 SD",BeIN SPORTS 4 SD
+SD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4 HD",BeIN SPORTS 4 HD
+HD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4 FHD",BeIN SPORTS 4 FHD
+FHD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports4.qa" tvg-name="BeIN SPORTS 4 4K",BeIN SPORTS 4 4K
+4K_LINK
+
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="BeIN SPORTS 5 SD",BeIN SPORTS 5 SD
+SD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="BeIN SPORTS 5 HD",BeIN SPORTS 5 HD
+HD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="BeIN SPORTS 5 FHD",BeIN SPORTS 5 FHD
+FHD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports5.qa" tvg-name="BeIN SPORTS 5 4K",BeIN SPORTS 5 4K
+4K_LINK
+
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6 SD",BeIN SPORTS 6 SD
+SD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6 HD",BeIN SPORTS 6 HD
+HD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6 FHD",BeIN SPORTS 6 FHD
+FHD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports6.qa" tvg-name="BeIN SPORTS 6 4K",BeIN SPORTS 6 4K
+4K_LINK
+
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="BeIN SPORTS 7 SD",BeIN SPORTS 7 SD
+SD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="BeIN SPORTS 7 HD",BeIN SPORTS 7 HD
+HD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="BeIN SPORTS 7 FHD",BeIN SPORTS 7 FHD
+FHD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports7.qa" tvg-name="BeIN SPORTS 7 4K",BeIN SPORTS 7 4K
+4K_LINK
+
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8 SD",BeIN SPORTS 8 SD
+SD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8 HD",BeIN SPORTS 8 HD
+HD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8 FHD",BeIN SPORTS 8 FHD
+FHD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports8.qa" tvg-name="BeIN SPORTS 8 4K",BeIN SPORTS 8 4K
+4K_LINK
+
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9 SD",BeIN SPORTS 9 SD
+SD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9 HD",BeIN SPORTS 9 HD
+HD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9 FHD",BeIN SPORTS 9 FHD
+FHD_LINK
+
+#EXTINF:-1 group-title="BEIN SPORTS" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" tvg-id="beinsports9.qa" tvg-name="BeIN SPORTS 9 4K",BeIN SPORTS 9 4K
+4K_LINK
