@@ -1,0 +1,93 @@
+#EXTM3U
+
+SPORTS alkass
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",تلفزيون الكأس 360P
+https://goliveafrica.media:9998/live/62f643cdca8cf/index.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",تلفزيون الكأس 480P
+https://goliveafrica.media:9998/live/62f643cdca8cf/index.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",تلفزيون الكأس 720P
+https://goliveafrica.media:9998/live/62f643cdca8cf/index.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",تلفزيون الكأس 1080P
+https://goliveafrica.media:9998/live/62f643cdca8cf/index.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 1 360P
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 1 480P
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 1 720P
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 1 1080P
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 2 360P
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 2 480P
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 2 720P
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 2 1080P
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 3 360P
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 3 480P
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 3 720P
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 3 1080P
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 4 360P
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 4 480P
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 4 720P
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 4 1080P
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 5 360P
+https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 5 480P
+https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 5 720P
+https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 5 1080P
+https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 6 360P
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 6 480P
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 6 720P
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 6 1080P
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 7 360P
+https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 7 480P
+https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 7 720P
+https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس 7 1080P
+https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 360P
+https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 480P
+https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 720P
+https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 1080P
+https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
+
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 2 360P
+https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 2 480P
+https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 2 720P
+https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
+#EXTINF:-1 group-title="قنوات عربية" tvg-logo="https://i.imageupload.app/ccd5e019d5f1f7c95c1c.jpeg?utm_source=chatgpt.com",الكأس شوف 2 1080P
+https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
