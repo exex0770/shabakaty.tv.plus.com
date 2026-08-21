@@ -1,43 +1,43 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 01 1
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport1",ALWAN SPORT 01 SD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181662
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 01 2
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport1",ALWAN SPORT 01 HD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181661
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 01 3
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport1",ALWAN SPORT 01 FHD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181660
 
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02 1
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport2",ALWAN SPORT 02 SD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181665
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02 2
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport2",ALWAN SPORT 02 HD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181664
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02 3
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport2",ALWAN SPORT 02 FHD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181663
 
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 03 1
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport3",ALWAN SPORT 03 SD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181668
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 03 2
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport3",ALWAN SPORT 03 HD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181667
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 03 3
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport3",ALWAN SPORT 03 FHD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181666
 
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 04 1
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport4",ALWAN SPORT 04 SD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181671
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 04 2
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport4",ALWAN SPORT 04 HD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181670
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 04 3
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport4",ALWAN SPORT 04 FHD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181669
 
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 05 1
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport5",ALWAN SPORT 05 SD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181674
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 05 2
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport5",ALWAN SPORT 05 HD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181673
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 05 3
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport5",ALWAN SPORT 05 FHD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181672
 
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 06 1
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport6",ALWAN SPORT 06 SD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181677
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 06 2
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport6",ALWAN SPORT 06 HD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181676
-#EXTINF:-1 tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 06 3
+#EXTINF:-1 group-title="ALWAN" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-id="alwansport6",ALWAN SPORT 06 FHD
 http://pro.netmos.ovh:7355/MMTVO89S7DY7CNV7SD/P7HIDSPCN580WXH90/181675
