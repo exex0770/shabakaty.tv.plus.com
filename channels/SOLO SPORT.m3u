@@ -1,0 +1,19 @@
+#EXTM3U
+
+#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 02 SD",SOLO SPORT 02 SD
+http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957341.ts
+
+#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 02 HEVC",SOLO SPORT 02 HEVC
+http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957339.ts
+
+#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 02 HD",SOLO SPORT 02 HD
+http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957340.ts
+
+#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 03 SD",SOLO SPORT 03 SD
+http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957345.ts
+
+#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 03 HEVC",SOLO SPORT 03 HEVC
+http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957343.ts
+
+#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 03 HD",SOLO SPORT 03 HD
+http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957344.ts
