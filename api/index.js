@@ -9,8 +9,8 @@ const GROUPS = {
   },
 
   '2': {
-    nameEn: 'BEIN SPORTS SHABAKATY TV',
-    nameAr: 'BEIN SPORTS SHABAKATY TV',
+    nameEn: 'BEIN SPORTS MOOM',
+    nameAr: 'BEIN SPORTS MOOM',
     file: 'beIN SPORTS Shabakaty TV.m3u'
   },
 
@@ -27,8 +27,8 @@ const GROUPS = {
   },
 
   '5': {
-    nameEn: 'TOD SHABAKATY TV PLUS',
-    nameAr: 'TOD SHABAKATY TV PLUS',
+    nameEn: 'TOD BEIN SPORTS',
+    nameAr: 'TOD BEIN SPORTS',
     file: 'TOD Shabakaty TV Plus.m3u'
   },
 
