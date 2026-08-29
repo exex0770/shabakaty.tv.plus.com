@@ -1,55 +1,55 @@
-#EXTM3U
+here#EXTM3U
 
-#EXTINF:-1 tvg-id="beIN1" tvg-name="beIN Sports 1" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 1
+#EXTINF:-1 tvg-id="beIN1" tvg-name="beIN Sports 1 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 1 LON
 #EXTVLCOPT:http-referrer=
 #EXTVLCOPT:http-user-agent=
 http://h54.veloravia.buzz/live/31009988005/index.m3u8?t=5j10CsCBLYqp-r-p9KmPVg&e=1788025391
-#EXTINF:-1 tvg-id="beIN1-360" tvg-name="beIN Sports 1 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 1 360p
-http://h24.edgevision.online/live/978480008877005/index.m3u8?t=UZ1BPsZ_3KEimnRu-oHbYQ&e=1788024046
 #EXTINF:-1 tvg-id="beIN1-244" tvg-name="beIN Sports 1 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 1 244p
 http://h59.korvario.buzz/live/31009988005/index.m3u8?t=1AP43clx8NUd3Sz3wqdS-g&e=1787999849
+#EXTINF:-1 tvg-id="beIN1-360" tvg-name="beIN Sports 1 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 1 360p
+http://h24.edgevision.online/live/978480008877005/index.m3u8?t=UZ1BPsZ_3KEimnRu-oHbYQ&e=1788024046
 
-#EXTINF:-1 tvg-id="beIN2" tvg-name="beIN Sports 2" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 2
+#EXTINF:-1 tvg-id="beIN2" tvg-name="beIN Sports 2 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 2 LON
 http://h22.ditionadp.online/live/4798998070/index.m3u8?t=58gfUXs-DuE3WEHqzUFwJA&e=1788025565
-#EXTINF:-1 tvg-id="beIN2-360" tvg-name="beIN Sports 2 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 2 360p
-http://h52.zavellion.buzz/live/10011244/index.m3u8?t=EimaRLU3VuTFsEsdhv1Bog&e=1788024058
 #EXTINF:-1 tvg-id="beIN2-244" tvg-name="beIN Sports 2 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 2 244p
 http://h52.xenvario.buzz/live/4798998070/index.m3u8?t=HFmckJokavzaAcTiTkqo4A&e=1788000057
+#EXTINF:-1 tvg-id="beIN2-360" tvg-name="beIN Sports 2 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 2 360p
+http://h52.zavellion.buzz/live/10011244/index.m3u8?t=EimaRLU3VuTFsEsdhv1Bog&e=1788024058
 
-#EXTINF:-1 tvg-id="beIN3" tvg-name="beIN Sports 3" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 3
+#EXTINF:-1 tvg-id="beIN3" tvg-name="beIN Sports 3 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 3 LON
 http://h52.zavellion.buzz/live/551818447/index.m3u8?t=Jl2pVP-uxSPyRA3dBhiGXg&e=1788026116
-#EXTINF:-1 tvg-id="beIN3-360" tvg-name="beIN Sports 3 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 3 360p
-http://h52.zavellion.buzz/live/161988840/index.m3u8?t=Z8VF7Vob8cpnP0hu4ux-og&e=1788024957
 #EXTINF:-1 tvg-id="beIN3-244" tvg-name="beIN Sports 3 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 3 244p
 http://h58.zavoria.buzz/live/551818447/index.m3u8?t=Um4K78a4xxnsj0AF-5rHow&e=1788000134
+#EXTINF:-1 tvg-id="beIN3-360" tvg-name="beIN Sports 3 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 3 360p
+http://h52.zavellion.buzz/live/161988840/index.m3u8?t=Z8VF7Vob8cpnP0hu4ux-og&e=1788024957
 
-#EXTINF:-1 tvg-id="beIN4" tvg-name="beIN Sports 4" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 4
+#EXTINF:-1 tvg-id="beIN4" tvg-name="beIN Sports 4 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 4 LON
 http://re.new-redirect.online/live/131326625/index.m3u8?t=lC0azMJsSZ1ra_eMAuLrjg&e=1788025711
-#EXTINF:-1 tvg-id="beIN4-360" tvg-name="beIN Sports 4 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 4 360p
-http://re.new-redirect.online/live/0103088447/index.m3u8?t=ld8dZeQfkVvmfSkNG8TP_w&e=1788024101
 #EXTINF:-1 tvg-id="beIN4-244" tvg-name="beIN Sports 4 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 4 244p
 http://h61.xelveria.buzz/live/131326625/index.m3u8?t=_96yxeCI-CWzEypVfR-hGw&e=1788000197
+#EXTINF:-1 tvg-id="beIN4-360" tvg-name="beIN Sports 4 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 4 360p
+http://re.new-redirect.online/live/0103088447/index.m3u8?t=ld8dZeQfkVvmfSkNG8TP_w&e=1788024101
 
-#EXTINF:-1 tvg-id="beIN5" tvg-name="beIN Sports 5" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 5
+#EXTINF:-1 tvg-id="beIN5" tvg-name="beIN Sports 5 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 5 LON
 http://h59.korvario.buzz/live/181818444/index.m3u8?t=FmLVEeA9MuKZ37sdx_vW1g&e=1788025732
-#EXTINF:-1 tvg-id="beIN5-360" tvg-name="beIN Sports 5 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 5 360p
-http://h30.madaratcdn.online/live/115451004/index.m3u8?t=-80M9Nn6KISWvsikHecWXw&e=1788024119
 #EXTINF:-1 tvg-id="beIN5-244" tvg-name="beIN Sports 5 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 5 244p
 http://re.new-redirect.online/live/181818444/index.m3u8?t=I6QStPrvGR4YSoY3DiAIrQ&e=1788000246
+#EXTINF:-1 tvg-id="beIN5-360" tvg-name="beIN Sports 5 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 5 360p
+http://h30.madaratcdn.online/live/115451004/index.m3u8?t=-80M9Nn6KISWvsikHecWXw&e=1788024119
 
-#EXTINF:-1 tvg-id="beIN6" tvg-name="beIN Sports 6" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 6
+#EXTINF:-1 tvg-id="beIN6" tvg-name="beIN Sports 6 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 6 LON
 http://h21.cinezu.online/live/9883322/index.m3u8?t=hSoBBsYzHs99p209at_2rw&e=1788025757
-#EXTINF:-1 tvg-id="beIN6-360" tvg-name="beIN Sports 6 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 6 360p
-http://h56.zenoravia.buzz/live/788550011/index.m3u8?t=_HWjaCPh9V4D62fJX389Pw&e=1788024139
 #EXTINF:-1 tvg-id="beIN6-244" tvg-name="beIN Sports 6 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 6 244p
 http://h61.xelveria.buzz/live/9883322/index.m3u8?t=Gnp_m8GBQ_WNYMXH7viFeg&e=1788000310
+#EXTINF:-1 tvg-id="beIN6-360" tvg-name="beIN Sports 6 360p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 6 360p
+http://h56.zenoravia.buzz/live/788550011/index.m3u8?t=_HWjaCPh9V4D62fJX389Pw&e=1788024139
 
-#EXTINF:-1 tvg-id="beIN7" tvg-name="beIN Sports 7" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 7
+#EXTINF:-1 tvg-id="beIN7" tvg-name="beIN Sports 7 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 7 LON
 http://h22.ditionadp.online/live/14066007/index.m3u8?t=O3NXG1ntCoOiueS1rM5_sQ&e=1788024162
 #EXTINF:-1 tvg-id="beIN7-244" tvg-name="beIN Sports 7 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 7 244p
 http://h50.nexarion.buzz/live/79247621/index.m3u8?t=40T4VudO3nXjBj1urYZF9Q&e=1788000356
 
-#EXTINF:-1 tvg-id="beIN8" tvg-name="beIN Sports 8" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 8
+#EXTINF:-1 tvg-id="beIN8" tvg-name="beIN Sports 8 LON" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 8 LON
 http://h24.edgevision.online/live/500021000/index.m3u8?t=sfeo0Azl49j1fipvSQcpvQ&e=1788024784
 #EXTINF:-1 tvg-id="beIN8-244" tvg-name="beIN Sports 8 244p" tvg-logo="https://i.imageupload.app/78b2a36f0e0b616c9db6.png" group-title="beIN Sports",beIN Sports 8 244p
 http://h24.clipifay.online/live/770001000/index.m3u8?t=F_EEOmtR0fa41cIwe-Zqtg&e=1788000420
