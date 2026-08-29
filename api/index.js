@@ -15,8 +15,8 @@ const GROUPS = {
   },
 
   '3': {
-    nameEn: 'ALWAN SPORT',
-    nameAr: 'ALWAN SPORT',
+    nameEn: 'ALWAN SPORT MOOM',
+    nameAr: 'ALWAN SPORT MOOM',
     file: 'alwan_sport.m3u'
   },
 
