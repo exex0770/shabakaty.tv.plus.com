@@ -1,15 +1,21 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://files.manuscdn.com/user_upload_by_module/session_file/310519663881062729/oBPcoAuPVMZvNgGE.png" tvg-name="SOLO SPORT 02 HD",SOLO SPORT 02 HD
-https://ruyas.store/fajer1/index.m3u8?token=89fcffef283e3aba9323bc3728039fef920b1f9f-bc9b5a58ec4115e96df1f8ee84742d16-1787970916-1787960116
-#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 02 HEVC",SOLO SPORT 02 HEVC
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957339.ts
-#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 02 SD",SOLO SPORT 02 SD
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957341.ts
+# FADJR MOOM 1
+#EXTINF:-1 group-title="FADJR MOOM" tvg-logo="https://up6.cc/2026/08/178801394230881.jpg" tvg-name="FADJR MOOM 1",FADJR MOOM 1
+https://ruyas.store/fajer1/tracks-v1a1/2026/08/29/11/20/24-16000.ts?token=f8252c57291acef7b19df37effce0e3013c84473-8123b7392e1595dafcb7e11e82b3c9a7-1788013102-1788002302
 
-#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 03 HD",SOLO SPORT 03 HD
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957344.ts
-#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 03 HEVC",SOLO SPORT 03 HEVC
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957343.ts
-#EXTINF:-1 group-title="SOLO SPORT" tvg-logo="https://freeimage.host/i/CZDPl3B" tvg-name="SOLO SPORT 03 SD",SOLO SPORT 03 SD
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1957345.ts
+# FADJR MOOM 2
+#EXTINF:-1 group-title="FADJR MOOM" tvg-logo="https://up6.cc/2026/08/178801394230881.jpg" tvg-name="FADJR MOOM 2",FADJR MOOM 2
+https://ruyas.store/fajer2/index.m3u8?token=4cbf6dddc43c4516e9ececbcf2094f1ed14659fe-04997b5354a3f16de97ce9c1e25802eb-1788013114-1788002314
+
+# FADJR MOOM 3
+#EXTINF:-1 group-title="FADJR MOOM" tvg-logo="https://up6.cc/2026/08/178801394230881.jpg" tvg-name="FADJR MOOM 3",FADJR MOOM 3
+https://ruyas.store/fajer3/index.m3u8?token=5f0ae84f51b23c03239dbeb877393bd4da219368-d3b4e7007f01b6df367733b02d387c48-1788013119-1788002319
+
+# FADJR MOOM 4
+#EXTINF:-1 group-title="FADJR MOOM" tvg-logo="https://up6.cc/2026/08/178801394230881.jpg" tvg-name="FADJR MOOM 4",FADJR MOOM 4
+https://ruyas.store/fajer4/index.m3u8?token=ee900186c520cb955958d9cf4985cd3cedfe49ed-d180a1ac5fa9e95ecd3f04afa2430ce5-1788013125-1788002325
+
+# FADJR MOOM 5
+#EXTINF:-1 group-title="FADJR MOOM" tvg-logo="https://up6.cc/2026/08/178801394230881.jpg" tvg-name="FADJR MOOM 5",FADJR MOOM 5
+https://ruyas.store/fajer5/index.m3u8?token=9a4ce0b169a5f0df68a79bff58337df2992774e3-8c41c03642548fc6d6c278c1b336d801-1788013130-1788002330
