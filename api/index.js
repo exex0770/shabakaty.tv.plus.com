@@ -15,15 +15,15 @@ const GROUPS = {
   },
 
   '3': {
-    nameEn: 'ALWAN SPORT MOOM',
-    nameAr: 'ALWAN SPORT MOOM',
-    file: 'alwan_sport.m3u'
+    nameEn: 'ALWAN MOOM SPORT',
+    nameAr: 'ALWAN MOOM SPORT',
+    file: 'ALWAN MOOM SPORT.m3u'
   },
 
   '4': {
-    nameEn: 'SOLO SPORT',
-    nameAr: 'SOLO SPORT',
-    file: 'SOLO SPORT.m3u'
+    nameEn: 'FADJR MOOM SPORT',
+    nameAr: 'FADJR MOOM SPORT',
+    file: 'FADJR MOOM SPORT.m3u'
   },
 
   '5': {
