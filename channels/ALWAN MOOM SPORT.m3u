@@ -1,97 +1,40 @@
 #EXTM3U
 
-# ALWAN MOOM 1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 1",ALWAN MOOM 1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom1",ALWAN MOOM 1
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418113.ts
 
-# ALWAN MOOM 2 - SERVER 1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 2 SERVER 1",ALWAN MOOM 2 SERVER 1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom2",ALWAN MOOM 2
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
 
-# ALWAN MOOM 2 - SERVER 2
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 2 SERVER 2",ALWAN MOOM 2 SERVER 2
-http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
-
-# ALWAN MOOM 2 - SERVER 3
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 2 SERVER 3",ALWAN MOOM 2 SERVER 3
-http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
-
-# ALWAN MOOM 2 - SERVER 4
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 2 SERVER 4",ALWAN MOOM 2 SERVER 4
-http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
-
-# ALWAN MOOM 3 - SERVER 1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 3 SERVER 1",ALWAN MOOM 3 SERVER 1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom3",ALWAN MOOM 3
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641626.ts
 
-# ALWAN MOOM 3 - SERVER 2
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 3 SERVER 2",ALWAN MOOM 3 SERVER 2
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641620.ts
-
-# ALWAN MOOM 3 - SERVER 3
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 3 SERVER 3",ALWAN MOOM 3 SERVER 3
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641607.ts
-
-# ALWAN MOOM 4 - SERVER 1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 4 SERVER 1",ALWAN MOOM 4 SERVER 1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom4",ALWAN MOOM 4
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641627.ts
 
-# ALWAN MOOM 4 - SERVER 2
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 4 SERVER 2",ALWAN MOOM 4 SERVER 2
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641621.ts
-
-# ALWAN MOOM 4 - SERVER 3
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 4 SERVER 3",ALWAN MOOM 4 SERVER 3
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641608.ts
-
-# ALWAN MOOM 5 - SERVER 1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 5 SERVER 1",ALWAN MOOM 5 SERVER 1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom5",ALWAN MOOM 5
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641628.ts
 
-# ALWAN MOOM 5 - SERVER 2
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 5 SERVER 2",ALWAN MOOM 5 SERVER 2
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641622.ts
-
-# ALWAN MOOM 5 - SERVER 3
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 5 SERVER 3",ALWAN MOOM 5 SERVER 3
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641609.ts
-
-# ALWAN MOOM 6 - SERVER 1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 6 SERVER 1",ALWAN MOOM 6 SERVER 1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom6",ALWAN MOOM 6
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641629.ts
 
-# ALWAN MOOM 6 - SERVER 2
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 6 SERVER 2",ALWAN MOOM 6 SERVER 2
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641623.ts
-
-# ALWAN MOOM 6 - SERVER 3
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 6 SERVER 3",ALWAN MOOM 6 SERVER 3
-http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641610.ts
-
-# ALWAN MOOM 7
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 7",ALWAN MOOM 7
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom7",ALWAN MOOM 7
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641611.ts
 
-# ALWAN MOOM 8
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 8",ALWAN MOOM 8
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom8",ALWAN MOOM 8
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641612.ts
 
-# ALWAN MOOM 9
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 9",ALWAN MOOM 9
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom9",ALWAN MOOM 9
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641613.ts
 
-# ALWAN MOOM 10
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM 10",ALWAN MOOM 10
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoom10",ALWAN MOOM 10
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641614.ts
 
-# ALWAN MOOM F1
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM F1",ALWAN MOOM F1
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoomf1",ALWAN MOOM F1
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641616.ts
 
-# ALWAN MOOM UFC
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM UFC",ALWAN MOOM UFC
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoomufc",ALWAN MOOM UFC
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641615.ts
 
-# ALWAN MOOM WWE
-#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-name="ALWAN MOOM WWE",ALWAN MOOM WWE
+#EXTINF:-1 group-title="ALWAN MOOM" tvg-logo="https://up6.cc/2026/08/178801170908041.png" tvg-id="alwanmoomwwe",ALWAN MOOM WWE
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641617.ts
