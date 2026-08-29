@@ -1,73 +1,22 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports1.qa",Bein Sport Moom 1 LON
-http://h28.streamlio.buzz/live/31009988005/index.m3u8?t=_a48wCUF18kA5AmwlHA9ng&e=1788037177
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports1.qa",Bein Sport Moom 1 SD
-http://h52.zavellion.buzz/live/978480008877005/index.m3u8?t=IBfRRDm8BYVDhr8kNlG8MA&e=1788037563
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports1.qa",Bein Sport Moom 1 HD
-http://h52.melvarion.buzz/live/918454578001/index.m3u8?t=nZBmUu23aPeNQ6CYAhplVw&e=1788037640
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports1.qa",Bein Sport Moom 1 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953589
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports1",BEIN SPORTS 1 720P
+https://bol-x-cdn.zezo2.xyz/15.m3u8?token=9sJeers6As5CWSx-0HAktQ&expires=1788092753
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports2.qa",Bein Sport Moom 2 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953588
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports2.qa",Bein Sport Moom 2 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953588
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports2.qa",Bein Sport Moom 2 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953588
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports2.qa",Bein Sport Moom 2 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953588
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports2",BEIN SPORTS 2 720P
+https://bol-x-cdn.zezo2.xyz/9016.m3u8?token=zHa1pyocFXLxlYCnZ6g8jw&expires=1788092760
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports3.qa",Bein Sport Moom 3 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953587
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports3.qa",Bein Sport Moom 3 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953587
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports3.qa",Bein Sport Moom 3 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953587
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports3.qa",Bein Sport Moom 3 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953587
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports3",BEIN SPORTS 3 720P
+https://bol-x-cdn.zezo2.xyz/17.m3u8?token=y0BJussRJXg2t6gu3QISfg&expires=1788092771
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports4.qa",Bein Sport Moom 4 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953586
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports4.qa",Bein Sport Moom 4 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953586
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports4.qa",Bein Sport Moom 4 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953586
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports4.qa",Bein Sport Moom 4 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953586
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports4",BEIN SPORTS 4 720P
+https://bol-x-cdn.zezo2.xyz/18.m3u8?token=nKwKs1JCCKivNuV9NWCBLw&expires=1788092780
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports5.qa",Bein Sport Moom 5 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953585
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports5.qa",Bein Sport Moom 5 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953585
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports5.qa",Bein Sport Moom 5 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953585
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports5.qa",Bein Sport Moom 5 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953585
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports5",BEIN SPORTS 5 720P
+https://bol-x-cdn.zezo2.xyz/19.m3u8?token=Ys4ScKrpE97MYkQM3yGKpA&expires=1788092788
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports6.qa",Bein Sport Moom 6 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953584
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports6.qa",Bein Sport Moom 6 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953584
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports6.qa",Bein Sport Moom 6 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953584
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports6.qa",Bein Sport Moom 6 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953584
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports6",BEIN SPORTS 6 720P
+https://bol-x-cdn.zezo2.xyz/20.m3u8?token=KDBgnaO0OG36ncSPK7-lrA&expires=1788092797
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports7.qa",Bein Sport Moom 7 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953583
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports7.qa",Bein Sport Moom 7 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953583
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports7.qa",Bein Sport Moom 7 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953583
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports7.qa",Bein Sport Moom 7 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953583
-
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports8.qa",Bein Sport Moom 8 360P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953582
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports8.qa",Bein Sport Moom 8 480P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953582
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports8.qa",Bein Sport Moom 8 720P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953582
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports8.qa",Bein Sport Moom 8 1080P
-http://149.18.45.121/39B6CC5D/56BBDDBA/953582
+#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports7",BEIN SPORTS 7 720P
+https://bol-x-cdn.zezo2.xyz/21.m3u8?token=yg5nOW40E4cA_rjKyFvE1Q&expires=1788092805
