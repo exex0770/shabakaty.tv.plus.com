@@ -1,73 +1,73 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 01",ALWAN SPORT 01
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan01" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 01
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418113.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 SERVER 1",ALWAN SPORT 02 SERVER 1
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan02" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 SERVER 2",ALWAN SPORT 02 SERVER 2
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan02" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 SERVER 3",ALWAN SPORT 02 SERVER 3
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan02" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 02 SERVER 4",ALWAN SPORT 02 SERVER 4
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan02" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 02
 http://185.191.126.127:8080///live/b0:99:d7:15:88:50/3090914536649669/418115.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 SD",ALWAN SPORT 03 SD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan03" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 03
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641626.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 HD",ALWAN SPORT 03 HD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan03" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 03
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641620.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 03 4K",ALWAN SPORT 03 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan03" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 03
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641607.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 SD",ALWAN SPORT 04 SD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan04" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 04
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641627.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 HD",ALWAN SPORT 04 HD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan04" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 04
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641621.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 04 4K",ALWAN SPORT 04 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan04" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 04
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641608.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 SD",ALWAN SPORT 05 SD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan05" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 05
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641628.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 HD",ALWAN SPORT 05 HD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan05" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 05
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641622.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 05 4K",ALWAN SPORT 05 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan05" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 05
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641609.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 SD",ALWAN SPORT 06 SD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan06" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 06
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641629.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 HD",ALWAN SPORT 06 HD
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan06" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 06
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641623.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 06 4K",ALWAN SPORT 06 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan06" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 06
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641610.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 07 4K",ALWAN SPORT 07 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan07" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 07
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641611.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 08 4K",ALWAN SPORT 08 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan08" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 08
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641612.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 09 4K",ALWAN SPORT 09 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan09" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 09
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641613.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN SPORT 10 4K",ALWAN SPORT 10 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwan10" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN SPORT 10
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641614.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN F1 4K",ALWAN F1 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwanf1" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN F1
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641616.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN UFC 4K",ALWAN UFC 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwanufc" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN UFC
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641615.ts
 
-#EXTINF:-1 group-title="ALWAN SPORT" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png" tvg-name="ALWAN WWE 4K",ALWAN WWE 4K
+#EXTINF:-1 group-title="ALWAN SPORT" tvg-id="alwanwwe" tvg-logo="https://i.imageupload.app/106c89e66e911fe26c3f.png",ALWAN WWE
 http://mh.smpy24.live:80/live/Bengamenbukinafaso2026/msvrpi45e1/1641617.ts
