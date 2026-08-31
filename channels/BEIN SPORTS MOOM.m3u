@@ -1,22 +1,59 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports1",BEIN SPORTS 1 720P
-https://bol-x-cdn.zezo2.xyz/15.m3u8?token=9sJeers6As5CWSx-0HAktQ&expires=1788092753
+# =========================
+# PREMIER SPORTS 1
+# =========================
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports2",BEIN SPORTS 2 720P
-https://bol-x-cdn.zezo2.xyz/9016.m3u8?token=zHa1pyocFXLxlYCnZ6g8jw&expires=1788092760
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.ie",┃UK┃ PREMIER SPORTS 1 SD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312721&extension=ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports3",BEIN SPORTS 3 720P
-https://bol-x-cdn.zezo2.xyz/17.m3u8?token=y0BJussRJXg2t6gu3QISfg&expires=1788092771
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.ie",┃UK┃ PREMIER SPORTS 1 HD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312723&extension=ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports4",BEIN SPORTS 4 720P
-https://bol-x-cdn.zezo2.xyz/18.m3u8?token=nKwKs1JCCKivNuV9NWCBLw&expires=1788092780
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.ie",┃UK┃ PREMIER SPORTS 1 HEVC HD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312719&extension=ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports5",BEIN SPORTS 5 720P
-https://bol-x-cdn.zezo2.xyz/19.m3u8?token=Ys4ScKrpE97MYkQM3yGKpA&expires=1788092788
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.ie",┃UK┃ PREMIER SPORTS 1 FHD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312725&extension=ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports6",BEIN SPORTS 6 720P
-https://bol-x-cdn.zezo2.xyz/20.m3u8?token=KDBgnaO0OG36ncSPK7-lrA&expires=1788092797
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.ie",┃UK┃ PREMIER SPORTS 1 HEVC FHD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312717&extension=ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS" tvg-logo="https://up6.cc/2026/08/178786535536691.jpg" tvg-id="beinsports7",BEIN SPORTS 7 720P
-https://bol-x-cdn.zezo2.xyz/21.m3u8?token=yg5nOW40E4cA_rjKyFvE1Q&expires=1788092805
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.ie",┃UK┃ PREMIER SPORTS 1 RAW 50FPS FHD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312727&extension=ts
+
+# =========================
+# PREMIER SPORTS 2
+# =========================
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.ie",┃UK┃ PREMIER SPORTS 2 SD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312722&extension=ts
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.ie",┃UK┃ PREMIER SPORTS 2 HD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312724&extension=ts
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.ie",┃UK┃ PREMIER SPORTS 2 HEVC HD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312720&extension=ts
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.ie",┃UK┃ PREMIER SPORTS 2 FHD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312726&extension=ts
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.ie",┃UK┃ PREMIER SPORTS 2 HEVC FHD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312718&extension=ts
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.ie",┃UK┃ PREMIER SPORTS 2 RAW 50FPS FHD (IRELAND)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312728&extension=ts
+
+# =========================
+# PREMIER SPORTS 1 — UK
+# =========================
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports1.uk",┃UK┃ PREMIER SPORTS 1 FHD (UK)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312729&extension=ts
+
+# =========================
+# PREMIER SPORTS 2 — UK
+# =========================
+
+#EXTINF:-1 group-title="┃UK┃ PREMIER SPORTS" tvg-logo="https://up6.cc/2026/08/178819332532251.jpg" tvg-id="premiersports2.uk",┃UK┃ PREMIER SPORTS 2 FHD (UK)
+http://nexusconnects.org/play/live.php?mac=00:1A:79:A2:B8:2E&stream=1312730&extension=ts
