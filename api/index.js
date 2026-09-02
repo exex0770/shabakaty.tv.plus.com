@@ -3,9 +3,9 @@ const path = require('path');
 
 const GROUPS = {
   '1': {
-    nameEn: 'BEIN SPORTS',
-    nameAr: 'BEIN SPORTS',
-    file: 'bein_sports.m3u'
+    nameEn: 'TOD BEIN SPORTS',
+    nameAr: 'TOD BEIN SPORTS',
+    file: 'TOD BEIN SPORTS.m3u'
   },
 
   '2': {
