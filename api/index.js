@@ -1,86 +1,101 @@
 const fs = require('fs');
 const path = require('path');
 
+const LOGO = 'https://i.imageupload.app/6a082ae964db7774dd08.png';
+
+/*
+==================================================
+GROUPS
+==================================================
+
+IMPORTANT:
+- IDs are kept unchanged so the app does not break.
+- "order" controls display order only.
+*/
+
 const GROUPS = {
   '1': {
     nameEn: 'TOD BEIN SPORTS',
     nameAr: 'TOD BEIN SPORTS',
-    file: 'TOD BEIN SPORTS.m3u'
+    file: 'TOD BEIN SPORTS.m3u',
+    order: 1
   },
 
   '2': {
     nameEn: 'BEIN SPORTS MOOM',
     nameAr: 'BEIN SPORTS MOOM',
-    file: 'BEIN SPORTS MOOM.m3u'
+    file: 'BEIN SPORTS MOOM.m3u',
+    order: 4
   },
 
   '3': {
     nameEn: 'ALWAN MOOM SPORT',
     nameAr: 'ALWAN MOOM SPORT',
-    file: 'ALWAN MOOM SPORT.m3u'
+    file: 'ALWAN MOOM SPORT.m3u',
+    order: 3
   },
 
   '4': {
     nameEn: 'FADJR MOOM SPORT',
     nameAr: 'FADJR MOOM SPORT',
-    file: 'FADJR MOOM SPORT.m3u'
+    file: 'FADJR MOOM SPORT.m3u',
+    order: 5
   },
 
   '5': {
     nameEn: 'BEIN SPORTS',
     nameAr: 'BEIN SPORTS',
-    file: 'BEIN SPORTS.m3u'
+    file: 'BEIN SPORTS.m3u',
+    order: 2
   },
 
   '6': {
     nameEn: 'ALKASS SPORTS',
     nameAr: 'ALKASS SPORTS',
-    file: 'alkass.m3u'
+    file: 'alkass.m3u',
+    order: 6
   }
 };
 
-const LOGO =
-  'https://i.imageupload.app/6a082ae964db7774dd08.png';
 
-
-/* =========================================================
-   ATTRIBUTE READER
-========================================================= */
+/*
+==================================================
+ATTRIBUTE PARSER
+==================================================
+*/
 
 function getAttribute(line, attribute) {
-  if (!line) return '';
-
   const regex = new RegExp(
-    attribute.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') +
-    '\\s*=\\s*"([^"]*)"',
+    attribute + '="([^"]*)"',
     'i'
   );
 
   const match = line.match(regex);
 
-  return match && match[1]
-    ? match[1].trim()
-    : '';
+  return match ? match[1].trim() : '';
 }
 
 
-/* =========================================================
-   QUALITY NORMALIZATION
-========================================================= */
+/*
+==================================================
+NORMALIZE QUALITY
+==================================================
+*/
 
 function normalizeQuality(value) {
-
-  if (!value) {
-    return '';
-  }
+  if (!value) return '';
 
   let q = String(value)
     .trim()
     .toUpperCase();
 
-  q = q.replace(/\s+/g, ' ');
+  q = q.replace(/\s+/g, '');
 
-  if (q === 'LON' || q === 'LONG' || q === 'LOW') {
+  if (
+    q === 'LON' ||
+    q === 'LONG' ||
+    q === 'LOW'
+  ) {
     return 'LON';
   }
 
@@ -108,129 +123,84 @@ function normalizeQuality(value) {
     return '8K';
   }
 
-  const numeric = q.match(/(\d{3,5})\s*P?/);
+  const pMatch = q.match(/(\d{3,4})P/);
 
-  if (numeric) {
-    return `${numeric[1]}P`;
+  if (pMatch) {
+    return `${pMatch[1]}P`;
+  }
+
+  const numberMatch = q.match(/^(\d{3,4})$/);
+
+  if (numberMatch) {
+    return `${numberMatch[1]}P`;
   }
 
   return q;
 }
 
 
-/* =========================================================
-   EXTRACT QUALITY FROM NAME
-========================================================= */
+/*
+==================================================
+EXTRACT QUALITY
+==================================================
+*/
 
-function extractQualityFromName(name) {
+function extractQuality(extinfLine, channelName) {
 
-  if (!name) {
-    return '';
-  }
-
-  const text = name.trim();
-
-  /*
-   LON
-  */
-
-  if (/\bLON\b/i.test(text)) {
-    return 'LON';
-  }
-
-  /*
-   Numeric
-   240P / 244P / 360P / 480P / 720P / 1080P ...
-  */
-
-  const numeric = text.match(
-    /\b(144|240|244|360|480|576|720|900|1080|1440|2160|2880|4320)P?\b/i
+  const tvgQuality = getAttribute(
+    extinfLine,
+    'tvg-quality'
   );
 
-  if (numeric) {
-    return `${numeric[1]}P`;
+  if (tvgQuality) {
+    return normalizeQuality(tvgQuality);
   }
 
-  /*
-   Text
-  */
-
-  const textQuality = text.match(
-    /\b(SD|HD|FHD|UHD|4K|8K|HDR10\+?|HDR|DV)\b/i
+  const tvgName = getAttribute(
+    extinfLine,
+    'tvg-name'
   );
 
-  if (textQuality) {
-    return textQuality[1].toUpperCase();
+  if (tvgName) {
+
+    const match = tvgName.match(
+      /(?:^|\s)(LON|LONG|LOW|SD|HD|FHD|UHD|4K|8K|\d{3,4}P)(?:\s|$)/i
+    );
+
+    if (match) {
+      return normalizeQuality(match[1]);
+    }
+  }
+
+  if (channelName) {
+
+    const match = channelName.match(
+      /(?:^|\s)(LON|LONG|LOW|SD|HD|FHD|UHD|4K|8K|\d{3,4}P)(?:\s|$)/i
+    );
+
+    if (match) {
+      return normalizeQuality(match[1]);
+    }
   }
 
   return '';
 }
 
 
-/* =========================================================
-   EXTRACT QUALITY
-   PRIORITY:
-   1 tvg-quality
-   2 tvg-name
-   3 channel name
-========================================================= */
-
-function extractQuality(info, originalName) {
-
-  const tvgQuality = getAttribute(info, 'tvg-quality');
-
-  if (tvgQuality) {
-    return normalizeQuality(tvgQuality);
-  }
-
-  const tvgName = getAttribute(info, 'tvg-name');
-
-  const fromTvgName = extractQualityFromName(tvgName);
-
-  if (fromTvgName) {
-    return fromTvgName;
-  }
-
-  return extractQualityFromName(originalName);
-}
-
-
-/* =========================================================
-   REMOVE QUALITY FROM DISPLAY NAME
-========================================================= */
+/*
+==================================================
+CLEAN CHANNEL NAME
+==================================================
+*/
 
 function cleanChannelName(name) {
 
-  if (!name) {
-    return '';
-  }
+  if (!name) return '';
 
   let result = String(name).trim();
 
-  /*
-   Remove LON
-  */
-
   result = result.replace(
-    /\s+\bLON\b\s*$/i,
-    ''
-  );
-
-  /*
-   Remove SD / HD / FHD / UHD / 4K / 8K
-  */
-
-  result = result.replace(
-    /\s+\b(?:SD|HD|FHD|UHD|4K|8K|HDR10\+?|HDR|DV)\b\s*$/i,
-    ''
-  );
-
-  /*
-   Remove numeric quality
-  */
-
-  result = result.replace(
-    /\s+\b(?:144|240|244|360|480|576|720|900|1080|1440|2160|2880|4320)P?\b\s*$/i,
+    /\s+(?:LON|LONG|LOW|SD|HD|FHD|UHD|4K|8K|\d{3,4}P)\s*$/i,
     ''
   );
 
@@ -238,114 +208,130 @@ function cleanChannelName(name) {
 }
 
 
-/* =========================================================
-   QUALITY SORT
-========================================================= */
+/*
+==================================================
+QUALITY PRIORITY
+==================================================
+*/
 
 function qualityPriority(quality) {
 
-  if (!quality) {
-    return 999999;
-  }
-
   const q = normalizeQuality(quality);
 
-  /*
-   LON MUST ALWAYS BE FIRST
-  */
+  if (q === 'LON') return 1;
 
-  if (q === 'LON') {
-    return 0;
-  }
+  if (q === '240P') return 2;
+  if (q === '244P') return 2;
 
-  /*
-   Requested order:
-   LON
-   244P / 240P
-   360P
-   then other qualities
-  */
+  if (q === '360P') return 3;
 
-  const special = {
-    '244P': 10,
-    '240P': 10,
-    '360P': 20
-  };
+  if (q === '480P') return 4;
 
-  if (special[q] !== undefined) {
-    return special[q];
-  }
+  if (q === '576P') return 5;
 
-  /*
-   Standard numeric quality
-  */
+  if (q === '720P') return 6;
 
-  const numeric = q.match(/^(\d+)P$/);
+  if (q === '1080P') return 7;
 
-  if (numeric) {
-    return 100 + parseInt(numeric[1], 10);
-  }
+  if (q === '1440P') return 8;
 
-  /*
-   Text qualities
-  */
+  if (q === '2160P') return 9;
 
-  const text = {
-    'SD': 500,
-    'HD': 600,
-    'FHD': 700,
-    'UHD': 800,
-    '4K': 800,
-    'HDR': 900,
-    'HDR10': 900,
-    'HDR10+': 900,
-    'DV': 900,
-    '8K': 1000
-  };
+  if (q === '4K') return 10;
 
-  if (text[q] !== undefined) {
-    return text[q];
-  }
+  if (q === '8K') return 11;
 
-  return 999999;
+  if (q === 'SD') return 20;
+
+  if (q === 'HD') return 21;
+
+  if (q === 'FHD') return 22;
+
+  if (q === 'UHD') return 23;
+
+  return 100;
 }
 
 
-/* =========================================================
-   SORT QUALITIES
-========================================================= */
+/*
+==================================================
+SORT QUALITIES
+==================================================
+*/
 
 function sortQualities(qualities) {
 
   return qualities.sort((a, b) => {
 
-    const pa = qualityPriority(a.quality);
-    const pb = qualityPriority(b.quality);
+    const priorityA =
+      qualityPriority(a.quality);
 
-    if (pa !== pb) {
-      return pa - pb;
+    const priorityB =
+      qualityPriority(b.quality);
+
+    if (priorityA !== priorityB) {
+      return priorityA - priorityB;
     }
 
-    return String(a.quality)
-      .localeCompare(
-        String(b.quality),
-        undefined,
-        {
-          numeric: true,
-          sensitivity: 'base'
-        }
-      );
+    return String(a.quality).localeCompare(
+      String(b.quality)
+    );
   });
 }
 
 
-/* =========================================================
-   READ PLAYLIST
-========================================================= */
+/*
+==================================================
+GET GROUPS
+==================================================
+*/
+
+function getGroups() {
+
+  return Object.entries(GROUPS)
+
+    // Display order only.
+    // IDs remain unchanged.
+    .sort(
+      ([, a], [, b]) =>
+        a.order - b.order
+    )
+
+    .map(([id, group]) => {
+
+      return {
+        id: id,
+
+        name_en: group.nameEn,
+
+        name_ar: group.nameAr,
+
+        logo: LOGO,
+
+        mobile_logo: LOGO,
+
+        main_icon: LOGO,
+
+        sub_icon: LOGO,
+
+        link: '',
+
+        Maintenance: '0'
+      };
+
+    });
+}
+
+
+/*
+==================================================
+READ PLAYLIST
+==================================================
+*/
 
 function readPlaylist(groupId) {
 
-  const group = GROUPS[String(groupId)];
+  const group = GROUPS[groupId];
 
   if (!group) {
     return [];
@@ -357,411 +343,265 @@ function readPlaylist(groupId) {
     group.file
   );
 
-  console.log('====================================');
-  console.log('Reading group:', groupId);
-  console.log('File:', group.file);
-  console.log('Path:', filePath);
-  console.log('====================================');
-
   if (!fs.existsSync(filePath)) {
-
-    console.error(
-      'M3U FILE NOT FOUND:',
-      filePath
-    );
-
     return [];
   }
 
-  let text;
-
-  try {
-
-    text = fs.readFileSync(
-      filePath,
-      'utf8'
-    );
-
-  } catch (error) {
-
-    console.error(
-      'READ FILE ERROR:',
-      error
-    );
-
-    return [];
-  }
-
-
-  /*
-   Remove BOM
-  */
-
-  text = text.replace(
-    /^\uFEFF/,
-    ''
+  const content = fs.readFileSync(
+    filePath,
+    'utf8'
   );
 
-
-  /*
-   Split lines
-  */
-
-  const lines = text
+  const lines = content
     .split(/\r?\n/)
-    .map(line => line.trim());
+    .map(line => line.trim())
+    .filter(Boolean);
 
+  const channelsMap = new Map();
 
-  /*
-   IMPORTANT:
-   Group by TVG-ID.
-   
-   tvg-id is the PRIMARY KEY.
-   
-   This prevents:
-   
-   beIN1 LON
-   beIN1 SD
-   beIN1 HD
-   
-   from becoming 3 channels.
-   
-   They become ONE channel.
-  */
+  let channelNumber = 0;
 
-  const channelMap = new Map();
-
-  let autoId = 0;
-
-
-  /*
-   Parse M3U
-  */
-
-  for (
-    let i = 0;
-    i < lines.length;
-    i++
-  ) {
+  for (let i = 0; i < lines.length; i++) {
 
     const line = lines[i];
 
-    if (!line) {
+    if (!line.startsWith('#EXTINF')) {
       continue;
     }
 
+    const extinfLine = line;
+
+    const streamUrl =
+      lines[i + 1] || '';
+
     if (
-      !line
-        .toUpperCase()
-        .startsWith('#EXTINF')
+      !streamUrl ||
+      streamUrl.startsWith('#')
     ) {
       continue;
     }
 
-
-    const info = line;
-
-
-    /*
-     Channel name after comma
-    */
-
-    const nameMatch =
-      info.match(/,(.*)$/);
-
-    let originalName =
-      nameMatch
-        ? nameMatch[1].trim()
-        : '';
-
-
-    if (!originalName) {
-      originalName = `Channel ${++autoId}`;
-    }
-
-
-    /*
-     TVG-ID
-    */
-
-    let tvgId =
+    const tvgId =
       getAttribute(
-        info,
+        extinfLine,
         'tvg-id'
       );
 
+    const tvgName =
+      getAttribute(
+        extinfLine,
+        'tvg-name'
+      );
+
+    const groupTitle =
+      getAttribute(
+        extinfLine,
+        'group-title'
+      );
 
     /*
-     If tvg-id doesn't exist,
-     use cleaned channel name.
+    ----------------------------------------------
+    CHANNEL NAME
+    ----------------------------------------------
     */
 
-    const cleanedName =
+    let visibleName = '';
+
+    const commaIndex =
+      extinfLine.indexOf(',');
+
+    if (commaIndex !== -1) {
+
+      visibleName =
+        extinfLine
+          .substring(commaIndex + 1)
+          .trim();
+    }
+
+    const originalName =
+      tvgName ||
+      visibleName ||
+      `Channel ${channelNumber + 1}`;
+
+    const cleanName =
       cleanChannelName(
         originalName
       );
 
 
-    if (!tvgId) {
+    /*
+    ----------------------------------------------
+    CHANNEL ID
+    ----------------------------------------------
+    */
 
-      tvgId =
-        cleanedName
-          .toLowerCase()
-          .replace(/\s+/g, '_');
-    }
+    const channelKey =
+      tvgId ||
+      cleanName.toLowerCase();
 
 
     /*
-     Quality
-   
-     tvg-quality first,
-     then tvg-name,
-     then visible name.
+    ----------------------------------------------
+    QUALITY
+    ----------------------------------------------
     */
 
     const quality =
       extractQuality(
-        info,
+        extinfLine,
         originalName
       );
 
 
     /*
-     If no quality exists,
-     don't invent one.
+    ----------------------------------------------
+    CREATE CHANNEL
+    ----------------------------------------------
     */
 
-    const finalQuality =
-      quality || 'AUTO';
+    if (!channelsMap.has(channelKey)) {
 
+      channelNumber++;
 
-    /*
-     Logo
-    */
-
-    const logo =
-      getAttribute(
-        info,
-        'tvg-logo'
-      ) || LOGO;
-
-
-    /*
-     Group
-    */
-
-    const m3uGroupName =
-      getAttribute(
-        info,
-        'group-title'
-      ) || group.nameEn;
-
-
-    /*
-     STREAM URL
-   
-     Read the line immediately
-     after EXTINF.
-    */
-
-    let link = '';
-
-    let j = i + 1;
-
-    while (
-      j < lines.length &&
-      !lines[j]
-    ) {
-      j++;
-    }
-
-
-    if (
-      j < lines.length &&
-      !lines[j].startsWith('#')
-    ) {
-
-      link =
-        lines[j].trim();
-
-      i = j;
-    }
-
-
-    /*
-     No URL
-    */
-
-    if (!link) {
-
-      console.warn(
-        'Channel without stream:',
-        originalName
-      );
-
-      continue;
-    }
-
-
-    /*
-     PRIMARY GROUP KEY
-   
-     TVG-ID ONLY.
-     
-     Do NOT use:
-     - quality
-     - URL
-     - display name
-    */
-
-    const mapKey =
-      String(tvgId)
-        .trim()
-        .toLowerCase();
-
-
-    /*
-     Create channel once
-    */
-
-    if (!channelMap.has(mapKey)) {
-
-      channelMap.set(
-        mapKey,
+      channelsMap.set(
+        channelKey,
         {
-          name:
-            cleanedName ||
-            originalName,
+          id:
+            `${groupId}_${channelNumber}`,
 
-          logo: logo,
+          id_sliders: null,
 
-          mobile_logo: logo,
+          id_custom_list: null,
 
-          real_channel_logo: logo,
+          name_en:
+            cleanName,
+
+          name_ar:
+            cleanName,
+
+          id_groups:
+            groupId,
+
+          groups_name_en:
+            group.nameEn,
+
+          groups_name_ar:
+            group.nameAr,
+
+          groups_main_icon:
+            LOGO,
+
+          groups_sub_icon:
+            LOGO,
+
+          groups_logo:
+            LOGO,
+
+          groups_mobile_logo:
+            LOGO,
+
+          groups_link:
+            '',
+
+          logo:
+            getAttribute(
+              extinfLine,
+              'tvg-logo'
+            ) || LOGO,
+
+          mobile_logo:
+            getAttribute(
+              extinfLine,
+              'tvg-logo'
+            ) || LOGO,
+
+          real_channel_logo:
+            getAttribute(
+              extinfLine,
+              'tvg-logo'
+            ) || LOGO,
 
           logo_name:
-            cleanedName ||
-            originalName,
+            cleanName,
 
-          tvg_id: tvgId,
+          link:
+            '',
+
+          link2:
+            '',
+
+          link3:
+            '',
+
+          qualities: [],
 
           group_title:
-            m3uGroupName,
+            groupTitle || group.nameEn,
 
-          qualities: []
+          tvg_id:
+            tvgId,
+
+          quality_count:
+            0,
+
+          current_quality:
+            '',
+
+          stream_url:
+            ''
         }
       );
     }
 
 
     /*
-     Get existing channel
+    ----------------------------------------------
+    ADD QUALITY
+    ----------------------------------------------
     */
 
     const channel =
-      channelMap.get(mapKey);
+      channelsMap.get(channelKey);
+
+    const qualityName =
+      quality || 'LON';
 
 
     /*
-     If first entry had empty
-     name, update it.
-    */
-
-    if (
-      !channel.name &&
-      cleanedName
-    ) {
-      channel.name =
-        cleanedName;
-    }
-
-
-    /*
-     Keep first valid logo
-    */
-
-    if (
-      (!channel.logo ||
-       channel.logo === LOGO) &&
-      logo
-    ) {
-
-      channel.logo = logo;
-
-      channel.mobile_logo = logo;
-
-      channel.real_channel_logo = logo;
-    }
-
-
-    /*
-     QUALITY DUPLICATE CHECK
-   
-     IMPORTANT:
-     Same quality + different URL
-     should NOT overwrite existing
-     quality.
-     
-     But if same quality appears
-     multiple times, first one wins.
+    Prevent duplicate quality entries
     */
 
     const alreadyExists =
       channel.qualities.some(
-        q =>
-          String(q.quality)
-            .toUpperCase() ===
-          String(finalQuality)
-            .toUpperCase()
+        item =>
+          item.quality === qualityName &&
+          item.url === streamUrl
       );
 
 
     if (!alreadyExists) {
 
       channel.qualities.push({
-
-        quality:
-          finalQuality,
-
-        /*
-         Main field
-        */
-
-        link:
-          link,
-
-        /*
-         Compatibility fields
-         for different clients.
-        */
-
-        url:
-          link,
-
-        streamUrl:
-          link
+        quality: qualityName,
+        url: streamUrl
       });
     }
   }
 
 
   /*
-   Convert Map to Array
+  ================================================
+  FINALIZE CHANNELS
+  ================================================
   */
 
-  const channels = [];
+  const channels =
+    Array.from(
+      channelsMap.values()
+    );
 
-  let channelNumber = 1;
 
-
-  for (
-    const channel
-    of channelMap.values()
-  ) {
-
-    /*
-     Sort qualities
-    */
+  for (const channel of channels) {
 
     sortQualities(
       channel.qualities
@@ -769,322 +609,89 @@ function readPlaylist(groupId) {
 
 
     /*
-     Main stream
-   
-     First quality is the
-     currently selected quality.
-     
-     LON will be first when exists.
+    ----------------------------------------------
+    LINK / LINK2 / LINK3
+    ----------------------------------------------
     */
 
-    const mainQuality =
-      channel.qualities[0];
+    channel.link =
+      channel.qualities[0]?.url || '';
 
+    channel.link2 =
+      channel.qualities[1]?.url || '';
 
-    const link =
-      mainQuality
-        ? mainQuality.link
-        : '';
+    channel.link3 =
+      channel.qualities[2]?.url || '';
 
 
     /*
-     Second stream
+    ----------------------------------------------
+    QUALITY COUNT
+    ----------------------------------------------
     */
 
-    const link2 =
-      channel.qualities[1]
-        ? channel.qualities[1].link
-        : '';
+    channel.quality_count =
+      channel.qualities.length;
 
 
     /*
-     Third stream
+    ----------------------------------------------
+    CURRENT QUALITY
+    ----------------------------------------------
     */
 
-    const link3 =
-      channel.qualities[2]
-        ? channel.qualities[2].link
-        : '';
+    channel.current_quality =
+      channel.qualities[0]?.quality || '';
 
 
     /*
-     Channel ID
+    ----------------------------------------------
+    STREAM URL
+    ----------------------------------------------
     */
 
-    const channelId =
-      `${groupId}_${channelNumber}`;
-
-
-    /*
-     Final channel
-   
-     ONE CARD ONLY.
-     
-     All qualities remain inside:
-     
-     qualities[]
-    */
-
-    channels.push({
-
-      id:
-        channelId,
-
-      id_sliders:
-        null,
-
-      id_custom_list:
-        null,
-
-      name_en:
-        channel.name,
-
-      name_ar:
-        channel.name,
-
-      id_groups:
-        String(groupId),
-
-      groups_name_en:
-        group.nameEn,
-
-      groups_name_ar:
-        group.nameAr,
-
-      groups_main_icon:
-        LOGO,
-
-      groups_sub_icon:
-        LOGO,
-
-      groups_logo:
-        LOGO,
-
-      groups_mobile_logo:
-        LOGO,
-
-      groups_link:
-        '',
-
-      logo:
-        channel.logo,
-
-      mobile_logo:
-        channel.mobile_logo,
-
-      real_channel_logo:
-        channel.real_channel_logo,
-
-      logo_name:
-        channel.logo_name,
-
-      /*
-       Current/default stream
-      */
-
-      link:
-        link,
-
-      /*
-       Compatibility
-      */
-
-      link2:
-        link2,
-
-      link3:
-        link3,
-
-      /*
-       ALL QUALITIES
-      */
-
-      qualities:
-        channel.qualities,
-
-      /*
-       Metadata
-      */
-
-      group_title:
-        channel.group_title,
-
-      tvg_id:
-        channel.tvg_id,
-
-      quality_count:
-        channel.qualities.length,
-
-      /*
-       Current quality
-      */
-
-      current_quality:
-        mainQuality
-          ? mainQuality.quality
-          : '',
-
-      /*
-       Current URL
-      */
-
-      stream_url:
-        link
-    });
-
-
-    channelNumber++;
+    channel.stream_url =
+      channel.link;
   }
-
-
-  console.log(
-    `Group ${groupId} loaded: ${channels.length} channels`
-  );
-
-
-  /*
-   Debug information
-  */
-
-  channels.forEach(channel => {
-
-    console.log(
-      `[CHANNEL] ${channel.name_en}`
-    );
-
-    console.log(
-      `  tvg-id: ${channel.tvg_id}`
-    );
-
-    console.log(
-      `  qualities: ${channel.qualities
-        .map(q => q.quality)
-        .join(' | ')}`
-    );
-
-    console.log(
-      `  count: ${channel.quality_count}`
-    );
-  });
 
 
   return channels;
 }
 
 
-/* =========================================================
-   SUCCESS RESPONSE
-========================================================= */
+/*
+==================================================
+SUCCESS RESPONSE
+==================================================
+*/
 
 function success(data) {
 
   return {
+    api_status: 200,
 
-    api_status:
-      200,
+    api_message: 'success',
 
-    api_message:
-      'success',
-
-    data:
-      data
+    data: data
   };
 }
 
 
-/* =========================================================
-   GET GROUPS
-========================================================= */
+/*
+==================================================
+MAIN API HANDLER
+==================================================
+*/
 
-function getGroups() {
-
-  return Object.entries(
-    GROUPS
-  ).map(
-    ([id, group]) => {
-
-      return {
-
-        id:
-          id,
-
-        name_en:
-          group.nameEn,
-
-        name_ar:
-          group.nameAr,
-
-        logo:
-          LOGO,
-
-        mobile_logo:
-          LOGO,
-
-        main_icon:
-          LOGO,
-
-        sub_icon:
-          LOGO,
-
-        link:
-          '',
-
-        Maintenance:
-          '0'
-      };
-    }
-  );
-}
-
-
-/* =========================================================
-   API
-========================================================= */
-
-module.exports = (
+module.exports = async function handler(
   req,
   res
-) => {
-
-  const url =
-    new URL(
-      req.url,
-      'https://localhost'
-    );
-
-
-  const pathname =
-    url.pathname.replace(
-      /\/+$/,
-      ''
-    ) || '/';
-
+) {
 
   /*
-   GROUP ID
-  */
-
-  const groupId =
-    url.searchParams.get(
-      'id_groups'
-    ) ||
-    url.searchParams.get(
-      'group'
-    );
-
-
-  /*
-   CHANNEL ID
-  */
-
-  const channelId =
-    url.searchParams.get(
-      'id_channel'
-    );
-
-
-  /*
-   HEADERS
+  ----------------------------------------------
+  HEADERS
+  ----------------------------------------------
   */
 
   res.setHeader(
@@ -1099,7 +706,7 @@ module.exports = (
 
   res.setHeader(
     'Access-Control-Allow-Headers',
-    '*'
+    'Content-Type'
   );
 
   res.setHeader(
@@ -1114,280 +721,242 @@ module.exports = (
 
 
   /*
-   OPTIONS
+  ----------------------------------------------
+  OPTIONS
+  ----------------------------------------------
   */
 
-  if (
-    req.method === 'OPTIONS'
-  ) {
+  if (req.method === 'OPTIONS') {
 
-    return res
-      .status(200)
-      .end();
+    return res.status(200).end();
+  }
+
+
+  /*
+  ----------------------------------------------
+  ONLY GET
+  ----------------------------------------------
+  */
+
+  if (req.method !== 'GET') {
+
+    return res.status(405).json({
+      api_status: 405,
+      api_message: 'Method Not Allowed',
+      data: []
+    });
   }
 
 
   try {
 
+    const url =
+      new URL(
+        req.url,
+        `http://${req.headers.host}`
+      );
+
+
+    const pathname =
+      url.pathname;
+
+
+    const groupParam =
+      url.searchParams.get('group');
+
+
+    const idGroupsParam =
+      url.searchParams.get('id_groups');
+
+
+    const channelParam =
+      url.searchParams.get('id_channel');
+
+
     /*
-     /api?group=1
+    ==============================================
+    /api?group=1
+    /api?id_groups=1
+    ==============================================
     */
 
     if (
-      pathname === '/api' &&
-      groupId
+      groupParam ||
+      idGroupsParam
     ) {
 
-      if (
-        !GROUPS[
-          String(groupId)
-        ]
-      ) {
+      const groupId =
+        groupParam ||
+        idGroupsParam;
 
-        return res
-          .status(400)
-          .json({
-
-            api_status:
-              400,
-
-            api_message:
-              'Invalid group',
-
-            data:
-              []
-          });
-      }
-
-
-      const channels =
-        readPlaylist(
-          groupId
-        );
-
-
-      return res
-        .status(200)
-        .json(
-          success(channels)
-        );
+      return res.status(200).json(
+        success(
+          readPlaylist(groupId)
+        )
+      );
     }
 
 
     /*
-     /api
-     ALL GROUPS
+    ==============================================
+    /api
+    ==============================================
     */
 
     if (
-      pathname === '/api' &&
-      !groupId
+      pathname === '/api' ||
+      pathname === '/'
     ) {
 
-      return res
-        .status(200)
-        .json(
-          success(
-            getGroups()
-          )
-        );
+      return res.status(200).json(
+        success(
+          getGroups()
+        )
+      );
     }
 
 
     /*
-     /api/groups
+    ==============================================
+    /api/groups
+    ==============================================
     */
 
     if (
       pathname === '/api/groups'
     ) {
 
-      return res
-        .status(200)
-        .json(
-          success(
-            getGroups()
-          )
-        );
+      return res.status(200).json(
+        success(
+          getGroups()
+        )
+      );
     }
 
 
     /*
-     /api/channels?group=1
+    ==============================================
+    /api/channels?group=1
+    ==============================================
     */
 
     if (
       pathname === '/api/channels'
     ) {
 
-      const id =
-        groupId || '1';
+      const groupId =
+        groupParam ||
+        idGroupsParam;
 
+      if (!groupId) {
 
-      if (
-        !GROUPS[
-          String(id)
-        ]
-      ) {
-
-        return res
-          .status(400)
-          .json({
-
-            api_status:
-              400,
-
-            api_message:
-              'Invalid group',
-
-            data:
-              []
-          });
+        return res.status(200).json(
+          success([])
+        );
       }
 
-
-      const channels =
-        readPlaylist(id);
-
-
-      return res
-        .status(200)
-        .json(
-          success(channels)
-        );
+      return res.status(200).json(
+        success(
+          readPlaylist(groupId)
+        )
+      );
     }
 
 
     /*
-     /api/channel?id_channel=1_1
+    ==============================================
+    /api/channel?id_channel=1_1
+    ==============================================
     */
 
     if (
       pathname === '/api/channel'
     ) {
 
-      if (!channelId) {
+      if (!channelParam) {
 
-        return res
-          .status(200)
-          .json(
-            success([])
-          );
-      }
-
-
-      let channel =
-        null;
-
-
-      for (
-        const id
-        of Object.keys(GROUPS)
-      ) {
-
-        const channels =
-          readPlaylist(id);
-
-
-        const found =
-          channels.find(
-            x =>
-              x.id ===
-              channelId
-          );
-
-
-        if (found) {
-
-          channel =
-            found;
-
-          break;
-        }
-      }
-
-
-      return res
-        .status(200)
-        .json(
-          success(
-            channel
-              ? [channel]
-              : []
-          )
+        return res.status(200).json(
+          success([])
         );
+      }
+
+      const parts =
+        channelParam.split('_');
+
+      const groupId =
+        parts[0];
+
+      const channelId =
+        channelParam;
+
+      const channels =
+        readPlaylist(groupId);
+
+      const channel =
+        channels.find(
+          item =>
+            item.id === channelId
+        );
+
+      return res.status(200).json(
+        success(
+          channel ? [channel] : []
+        )
+      );
     }
 
 
     /*
-     Empty endpoints
+    ==============================================
+    EMPTY ENDPOINTS
+    ==============================================
     */
 
     if (
-
-      pathname ===
-        '/api/sliders' ||
-
-      pathname ===
-        '/api/slider_items' ||
-
-      pathname ===
-        '/api/custom_list' ||
-
-      pathname ===
-        '/api/custom_list_items' ||
-
-      pathname ===
-        '/api/schedules'
-
+      pathname === '/api/sliders' ||
+      pathname === '/api/slider_items' ||
+      pathname === '/api/custom_list' ||
+      pathname === '/api/custom_list_items' ||
+      pathname === '/api/schedules'
     ) {
 
-      return res
-        .status(200)
-        .json(
-          success([])
-        );
+      return res.status(200).json(
+        success([])
+      );
     }
 
 
     /*
-     NOT FOUND
+    ==============================================
+    404
+    ==============================================
     */
 
-    return res
-      .status(404)
-      .json({
+    return res.status(404).json({
 
-        api_status:
-          404,
+      api_status: 404,
 
-        api_message:
-          'Not found',
+      api_message: 'Not Found',
 
-        data:
-          []
-      });
+      data: []
+    });
 
   } catch (error) {
 
     console.error(
-      'API ERROR:',
+      'API Error:',
       error
     );
 
+    return res.status(500).json({
 
-    return res
-      .status(500)
-      .json({
+      api_status: 500,
 
-        api_status:
-          500,
+      api_message:
+        error.message ||
+        'Internal Server Error',
 
-        api_message:
-          'Server error',
-
-        data:
-          []
-      });
+      data: []
+    });
   }
 };
