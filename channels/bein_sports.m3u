@@ -1,43 +1,28 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports1.qa",beIN Sports 1 LON
-http://h28.streamlio.buzz/live/31009988005/index.m3u8?t=_a48wCUF18kA5AmwlHA9ng&e=1788037177
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports1.qa",beIN Sports 1 SD
-http://h52.zavellion.buzz/live/978480008877005/index.m3u8?t=IBfRRDm8BYVDhr8kNlG8MA&e=1788037563
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports1.qa",beIN Sports 1 HD
-http://h52.melvarion.buzz/live/918454578001/index.m3u8?t=nZBmUu23aPeNQ6CYAhplVw&e=1788037640
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 1
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441969.ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports2.qa",beIN Sports 2 LON
-http://h22.ditionadp.online/live/4798998070/index.m3u8?t=58gfUXs-DuE3WEHqzUFwJA&e=1788025565
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports2.qa",beIN Sports 2 SD
-http://h59.korvario.buzz/live/10011244/index.m3u8?t=lF5cAmtAVi2B_HSplwVTKg&e=1788037694
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports2.qa",beIN Sports 2 HD
-http://h52.xenvario.buzz/live/69854211/index.m3u8?t=SFCuFJfk9RiYtZ5w-40cQA&e=1788037694
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 2
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441970.ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports3.qa",beIN Sports 3 LON
-http://h52.zavellion.buzz/live/551818447/index.m3u8?t=Jl2pVP-uxSPyRA3dBhiGXg&e=1788026116
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports3.qa",beIN Sports 3 SD
-http://h56.daverion.buzz/live/161988840/index.m3u8?t=7lDQ7xtxWMUO44-aIXw6Qg&e=1788037807
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports3.qa",beIN Sports 3 HD
-http://h53.vidnora.buzz/live/645587700/index.m3u8?t=sadgBHXioxGlNGd1PA0kGw&e=1788037807
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 3
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441971.ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports4.qa",beIN Sports 4 LON
-http://re.new-redirect.online/live/131326625/index.m3u8?t=lC0azMJsSZ1ra_eMAuLrjg&e=1788025711
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports4.qa",beIN Sports 4 SD
-http://h27.cloudnivo.buzz/live/0103088447/index.m3u8?t=ctS6xOP7O_obq2fA293JtQ&e=1788037914
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports4.qa",beIN Sports 4 HD
-http://h50.streamvix.buzz/live/9787488847/index.m3u8?t=KKrf9wr9bmdFkz50y0tTPA&e=1788037914
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 4
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441972.ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports5.qa",beIN Sports 5 LON
-http://h59.korvario.buzz/live/181818444/index.m3u8?t=FmLVEeA9MuKZ37sdx_vW1g&e=1788025732
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports5.qa",beIN Sports 5 SD
-http://h57.vidviro.buzz/live/115451004/index.m3u8?t=iPaVk0dvaX1uX9WxC3bkg&e=1788038066
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports5.qa",beIN Sports 5 HD
-http://h54.monterivo.buzz/live/610303030/index.m3u8?t=EPzon6vePaJg5g0Y1I3JYA&e=1788038066
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 5
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441973.ts
 
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports6.qa",beIN Sports 6 LON
-http://h21.cinezu.online/live/9883322/index.m3u8?t=hSoBBsYzHs99p209at_2rw&e=1788025757
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports6.qa",beIN Sports 6 SD
-http://h59.daveloria.buzz/live/788550011/index.m3u8?t=UUv8ah1T__PQbulv54Idaw&e=1788038149
-#EXTINF:-1 group-title="AR | BEIN SPORTS PREMIUM" tvg-logo="https://up6.cc/2026/08/178803789166611.jpg" tvg-id="beinsports6.qa",beIN Sports 6 HD
-http://h24.clipifay.online/live/1515000000/index.m3u8?t=0OebMQlqDxalvq-Pbx11vA&e=1788038149
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 6
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441974.ts
+
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 7
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441975.ts
+
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 8
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441976.ts
+
+#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/todd.png" group-title="AR | BEIN TOD",AR - BEIN SPORT TOD 9
+http://apex-ayoumas.com:80/live/00546D4405AF290/cfm9gsq09o/1441977.ts
