@@ -27,9 +27,9 @@ const GROUPS = {
   },
 
   '5': {
-    nameEn: 'BEIN7SPORTS',
-    nameAr: 'BEIN7SPORTS',
-    file: 'BEIN7SPORTS.m3u'
+    nameEn: 'BEIN SPORTS',
+    nameAr: 'BEIN SPORTS',
+    file: 'BEIN SPORTS.m3u'
   },
 
   '6': {
