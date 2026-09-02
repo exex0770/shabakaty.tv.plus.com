@@ -27,9 +27,9 @@ const GROUPS = {
   },
 
   '5': {
-    nameEn: 'TOD BEIN SPORTS',
-    nameAr: 'TOD BEIN SPORTS',
-    file: 'TOD BEIN SPORTS.m3u'
+    nameEn: 'BEIN7SPORTS',
+    nameAr: 'BEIN7SPORTS',
+    file: 'BEIN7SPORTS.m3u'
   },
 
   '6': {
